@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Merienda+One&family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 767px) {  
+    /* sm */
+    .btn1{
+        font-size: 15px;
+    }
+    #jumbo{
+        background-image: url("pics/bgBannerSmall.jpg");
+    }
+}
+body{
+    margin-top: 200px;
+    background-color: #EEF7F0;
+    font-family: 'Acme', sans-serif;
+}
+.fontThai{
+    font-family: 'Athiti', sans-serif;
+}
+.head{
+    width: 100%;
+}
+.banner{
+    background-image: url("pics/bgBanner.jpg");
+    height: 100;
+}
+.bh2{
+    font-size: 40px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+.bh3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: italic;
+    padding: 5px;
+}
+.skillColor{
+    background: rgb(13,9,30);
+    background: linear-gradient(47deg, rgba(13,9,30,1) 0%, rgba(82,94,113,1) 56%, rgba(163,168,170,1) 100%);
+}
+.iCon{
+    text-decoration: none;
+    color: black;
+}
+.picSPY{
+    height: 150px;
+}
+
+
+#row1-left{
+    background-image: url("pics/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+#row2-right{
+    background-image: url("pics/pn.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+#row3-left{
+    background-image: url("pics/FavIdol.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+#row4{
+    background-image: url("pics/greenSP.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#row4-left{
+   border-style:groove;
+   border-color: black;
+}
+#row4-right{
+    border-style:groove;
+    /*border-left: 0px;*/
+    border-color: black; 
+}
